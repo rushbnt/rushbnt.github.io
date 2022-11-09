@@ -182,3 +182,6 @@ Checksec of `afpd`:
 2. using SMB to update and modify the `.appl` file in local in `./AppleDouble/<x>/<xyzt>.appl`
 3. Send AFP packet `afp_getappl` with `aindex` is a big number (like 10, 15)
 4. Trigger excute command send AFP packet `afp_logout`
+
+## Conclusion
+With hoping get a bounty because Netatalk appeared in Pwn2own 2021, I tried report this vulnerability to zdi, TrueNAS, Synology. But noone resolve this. After a half of year, I decided public this blog and no bounty :((. 
