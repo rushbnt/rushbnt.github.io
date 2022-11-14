@@ -6,11 +6,14 @@ tags:
   - 0day
   - netatalk
   - analysis
+  - CVE-2022-45188
 ---
 
 ## TL;DR
 Hi all, This is my first blog in this page. Actually this is my second blog, but first one is missed on the previous website. I will push it again in this page.
 Please feed free comment or create issue in github if you detect my misstakes. 
+
+Update: reg as CVE-2022-45188
 
 ## Overview
 Oftenly, I found a product from pwn2own to audit. I found [an amazing blog](https://research.nccgroup.com/2022/03/24/remote-code-execution-on-western-digital-pr4100-nas-cve-2022-23121) which discription about CVE-2022-23121 in Pwn2own. I tried to audit the source code of Netatalk 3.1.13 to understand the vulnerability clearly. Of couse with a hope to find a new vulnerability for next Pwn2own.
